@@ -1,0 +1,74 @@
+html {
+    background-color: darkblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    font-family: monospace;
+    transition: ease-in .8s;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: monospace;
+    display: block;
+    transition: ease-in .8s;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.openbtn{
+    position: fixed;
+    
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-family: monospace;
+    transition: ease-in .8s;
+}
+
+
+.container>h1 {
+    font-family:monospace;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top:50px;
+    color: brown;
+}
+
+.container>p{
+    font-family: monospace;
+    font-size: 25px;
+    color: lemonchiffon;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<script src="index.js" defer></script>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="mySidebar" style="margin-left: -250px;">
+        <a href="#" class="#" id="menu1" onclick="Num1Menu()">Video 1</a>
+        <a href="#" class="#" id="menu2" onclick="Num2Menu()">Video 2</a>
+        <a href="#" class="#" id="menu3" onclick="Num3Menu()">Video 3</a>
+    </div>
+
+    <!-- Page Content -->
+    <div class="main">
+        <button class="openbtn" id="openbutton" onclick="openSB()" style="margin-left: 0;">☰</button>
+        <div class="container">
+            <h1 id="title">Open the Sidebar Navigation Over a Part of the Content</h1>
+            <p id="text">Click on the menu on the left to select the video you want to watch</p>
+            <iframe width="1080" height="720" src="" id="yt" style="visibility: hidden;">
+            </iframe>
+        </div>
+    </div>
+</body>
+
+</html>
