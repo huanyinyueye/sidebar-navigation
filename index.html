@@ -3,11 +3,13 @@
 <link rel="stylesheet" href="style.css">
 <script src="index.js" defer></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <body>
 
     <!-- Sidebar -->
-    <div class="sidebar" id="mySidebar" style="margin-left: -250px;">
+    <div class="sidebar" id="mySidebar">
+        <div class="openbtn" id="openbutton" onclick="openSB()"><i class="fa fa-bars"></i></div>
         <a href="#" class="#" id="menu1" onclick="Num1Menu()">Video 1</a>
         <a href="#" class="#" id="menu2" onclick="Num2Menu()">Video 2</a>
         <a href="#" class="#" id="menu3" onclick="Num3Menu()">Video 3</a>
@@ -15,7 +17,7 @@
 
     <!-- Page Content -->
     <div class="main">
-        <button class="openbtn" id="openbutton" onclick="openSB()" style="margin-left: 0;"><i class="fa fa-bars"></i></button>
+        <!-- <button class="openbtn" id="openbutton" onclick="openSB()" style="margin-left: 0;"><i class="fa fa-bars"></i></button> -->
         <div class="container">
             <h1 id="title">Open the Sidebar Navigation Over a Part of the Content</h1>
             <p id="text">Click on the menu on the left to select the video you want to watch</p>

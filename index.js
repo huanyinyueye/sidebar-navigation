@@ -1,5 +1,4 @@
 const SB = document.getElementById("mySidebar");
-const OSB = document.getElementById("openbutton");
 const Menu1 = document.getElementById("menu1");
 const Menu2 = document.getElementById("menu2");
 const Menu3 = document.getElementById("menu3");
@@ -10,13 +9,12 @@ const Text = document.getElementById("text");
 function openSB() {
     if (SB.style.marginLeft=="-250px" ) {
         SB.style.marginLeft="0px";
-        OSB.style.marginLeft="250px";
     }
     else {
         SB.style.marginLeft="-250px";
-        OSB.style.marginLeft="0px";
     }
 }
+
 
 
 function Num1Menu(){
