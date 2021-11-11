@@ -1,4 +1,5 @@
 const SB = document.getElementById("mySidebar");
+const Openbtn = document.getElementById("openbutton")
 const Menu1 = document.getElementById("menu1");
 const Menu2 = document.getElementById("menu2");
 const Menu3 = document.getElementById("menu3");
@@ -6,13 +7,10 @@ const Youtube = document.getElementById("yt");
 const Title = document.getElementById("title");
 const Text = document.getElementById("text");
 
-function openSB() {
-    if (SB.style.marginLeft=="-250px" ) {
-        SB.style.marginLeft="0px";
-    }
-    else {
-        SB.style.marginLeft="-250px";
-    }
+
+// Control sidebar movement
+Openbtn.onclick=function(){
+    SB.classList.toggle('active');
 }
 
 

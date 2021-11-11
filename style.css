@@ -28,6 +28,11 @@ body {
     transition: ease-in .8s;
 }
 
+.sidebar.active {
+    margin-left: 0px;
+    transition: ease-in 0.7s;
+}
+
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -37,8 +42,6 @@ body {
     display: block;
     transition: ease-in .8s;
 }
-
-
 
 .container{
     display: flex;
