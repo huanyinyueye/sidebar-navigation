@@ -9,28 +9,26 @@ const Text = document.getElementById("text");
 
 
 // Control sidebar movement
-Openbtn.onclick=function(){
+Openbtn.onclick = function () {
     SB.classList.toggle('active');
 }
 
 
-
-function Num1Menu(){
+function Num1Menu() {
     Title.innerHTML = "11/04";
     Text.innerHTML = "樂天 VS 中信"
-    Youtube.src="https://www.youtube.com/embed/TEVQkPC1_ME";
-    Youtube.style.visibility="inherit";
+    Youtube.src = "https://www.youtube.com/embed/TEVQkPC1_ME";
+    Youtube.style.visibility = "inherit";
 }
-
-function Num2Menu(){
+function Num2Menu() {
     Title.innerHTML = "11/04";
     Text.innerHTML = "富邦 VS 味全"
-    Youtube.src="https://www.youtube.com/embed/rc1ny-FnILM";
-    Youtube.style.visibility="inherit";
+    Youtube.src = "https://www.youtube.com/embed/rc1ny-FnILM";
+    Youtube.style.visibility = "inherit";
 }
-function Num3Menu(){
+function Num3Menu() {
     Title.innerHTML = "11/03";
     Text.innerHTML = "富邦 VS 中信"
-    Youtube.src="https://www.youtube.com/embed/1wKDApuqNm0";
-    Youtube.style.visibility="inherit";
+    Youtube.src = "https://www.youtube.com/embed/1wKDApuqNm0";
+    Youtube.style.visibility = "inherit";
 }
